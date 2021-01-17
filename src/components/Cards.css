@@ -1,0 +1,144 @@
+.cards__container {
+  /* padding: 1rem; */
+  background: #fff;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  max-width: 1400px;
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  
+}
+
+.section__title {
+  margin-left: 1rem;
+}
+
+.cards__items {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 1rem;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  /* border-top: 2px solid #000000; */
+  -webkit-box-shadow:inset 0px 2px 0px #000000;
+    -moz-box-shadow:inset 0px 2px 0px #000000;
+    box-shadow: inset 0px 2px 0px #000000;
+}
+
+.cards__item__link:hover {
+  -webkit-box-shadow:inset 0px 4px 0px #e63946;
+    -moz-box-shadow:inset 0px 4px 0px #e63946;
+    box-shadow: inset 0px 4px 0px #e63946;
+  transition: all 0.1s ease-out;
+}
+
+.cards__item__info {
+  padding-top: 10px;
+}
+
+.cards__item__overline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articlecards__item__overline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.articlecards__item__image {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 38px;
+  width: 38px;
+  border-radius: 19px;
+  
+}
+
+.play-icon {
+  font-size: 24px;
+  color: #000000;
+}
+
+.cards__item__title {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0.006em;
+  text-align: left;
+}
+
+
+.cards__item__description {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.012em;
+  text-align: left;
+}
+
+.cards__item__author {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.012em;
+  text-align: left;
+}
+
+.cards__item__number {
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.012em;
+  text-align: left;
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+  
+}
+
+@media only screen and (max-width: 960px) {
+  .cards__container {
+    padding: 1rem;
+    width: 100vw;
+    margin: 0;
+  }
+}
