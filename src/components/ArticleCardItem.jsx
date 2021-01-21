@@ -16,7 +16,7 @@ function ArticleCardItem(props) {
             
             <div className="cards__item__info">
               <p className="cards__item__number">{props.author.name}</p>
-              <p className="cards__item__author">{props.date}</p>
+              <p className="cards__item__date">{props.date}</p>
             </div>
             
           </div>
