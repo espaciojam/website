@@ -7,7 +7,7 @@ function CardItem(props) {
     <div>
       {/* <BrowserRouter> */}
         <li className="cards__item">
-          <Link className="cards__item__link" to={`/${props.path}`}>
+          <Link className="cards__item__link" to={`episode/${props.id}`}>
             <div className="cards__item__overline">
               <div className="cards__item__info">
                 <p className="cards__item__number">{props.id}</p>

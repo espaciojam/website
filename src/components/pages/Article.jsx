@@ -5,21 +5,21 @@ import "./Article.css";
 
 function Article({ match }) {
   const {
-    params: { path },
+    params: { id },
   } = match;
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch(`https://swapi.dev/api/people/${path}`, {})
+    fetch(`https://swapi.dev/api/people/${id}`, {})
       .then((res) => res.json())
       .then((response) => {
         setData(response);
         setIsLoading(false);
-        console.log(`https://swapi.dev/api/people/${path}`);
+        console.log(`https://swapi.dev/api/people/${id}`);
       })
       .catch((error) => console.log(error));
-  }, [path]);
+  }, [id]);
 
   return (
     <>

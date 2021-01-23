@@ -5,7 +5,7 @@ function ArticleCardItem(props) {
   return (
     <div>
       <li className="cards__item">
-        <Link className="cards__item__link" to={`/${props.path}`}>
+        <Link className="cards__item__link" to={`${props.id}`}>
           <div className="articlecards__item__overline">
             
             <img

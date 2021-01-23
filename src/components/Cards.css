@@ -13,6 +13,7 @@
 
 .section__title {
   margin-left: 1rem;
+  font-weight: 400;
 }
 
 .cards__items {

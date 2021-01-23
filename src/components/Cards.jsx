@@ -13,7 +13,7 @@ function Cards() {
           return (
             <div key={key}>
               <CardItem
-                type={article.type}
+                topic={article.topic}
                 id={article.id}
                 date={article.publishDate}
                 title={article.title}
@@ -30,7 +30,7 @@ function Cards() {
           return (
             <div key={key}>
               <CardItem
-                type={article.type}
+                topic={article.topic}
                 id={article.id}
                 date={article.publishDate}
                 title={article.title}

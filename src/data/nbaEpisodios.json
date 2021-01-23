@@ -1,7 +1,7 @@
 [
     {
-      "type": "baloncesto",
-      "id": "001",
+      "topic": "baloncesto",
+      "id": "1",
       "title": "Raul Moreno (Unlimited Management), Liga Femenina, AfroBasket y NBA",
       "slug": "eb001",
       "heroImage": "image",

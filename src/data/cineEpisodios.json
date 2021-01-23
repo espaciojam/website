@@ -1,7 +1,7 @@
 [
     {
-      "type": "cine",
-      "id": "001",
+      "topic": "cine",
+      "id": "1",
       "title": "Space Jam",
       "author": "Espacio Jam",
       "slug": "ec001",
