@@ -6,6 +6,9 @@ import CineEpisodios from "../../data/cineEpisodios.json";
 import "../Cards.css";
 import "../../App.css";
 
+
+
+
 function Cine() {
   return (
     <div className="">
@@ -16,7 +19,7 @@ function Cine() {
             return (
               <div key={article.number}>
                 <CardItem
-                  type={article.type}
+                  topic={article.topic}
                   id={article.id}
                   date={article.publishDate}
                   title={article.title}
@@ -32,7 +35,7 @@ function Cine() {
             return (
               <div key={key}>
                 <ArticleCardItem
-                  type={article.type}
+                  topic={article.topic}
                   id={article.id}
                   author={article.author}
                   date={article.publishDate}

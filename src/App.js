@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Cine from "./components/pages/Cine";
 import Nba from "./components/pages/Nba";
 import Article from "./components/pages/Article";
+import Episode from "./components/pages/Episode";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/cine" exact component={Cine} />
-          <Route path="/nba" exact component={Nba} />
-          <Route path="/:path" component={Article} />
+          <Route path="/baloncesto" exact component={Nba} />
+          <Route path="/:id" component={Article} />
+          {/* <Route path="type/:id" component={Episode} /> */}
         </Switch>
       </Router>
     </>

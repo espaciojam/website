@@ -5,7 +5,7 @@ function ArticleCardItem(props) {
   return (
     <div>
       <li className="cards__item">
-        <Link className="cards__item__link" to={`/${props.path}`}>
+        <Link className="cards__item__link" to={`${props.id}`}>
           <div className="articlecards__item__overline">
             
             <img
@@ -16,7 +16,7 @@ function ArticleCardItem(props) {
             
             <div className="cards__item__info">
               <p className="cards__item__number">{props.author.name}</p>
-              <p className="cards__item__author">{props.date}</p>
+              <p className="cards__item__date">{props.date}</p>
             </div>
             
           </div>
